@@ -21,15 +21,16 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: none;
+  margin: 0;
 }
 
 /*--------------------------------------Скрить заголовки h2 і h1-----------------------------------*/
 .visually-hidden {
   position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+  clip:rect(0 0 0 0);
+  width:1px;
+  height:1px;
+  margin:-1px;
 }
 /*--------------------------------------------Общі значення----------------------------------*/
 li {
@@ -190,6 +191,8 @@ ul{
   line-height: 1.9;
   align-items: center;
   letter-spacing: 0.06em;
+  border-style: none;
+
 
   padding-top: 10px;
   padding-right: 32px;
@@ -549,6 +552,7 @@ padding-bottom: 94px;
 
 .fotos{
   margin-bottom: 20px;
+  
 }
 
 .title{
